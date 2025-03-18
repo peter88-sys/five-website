@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Sign-Up Form</title>
+</head>
+<body>
+
+<img src="signbook.gif" align="left" hspace="10" alt="Sign Book Image">
+<strong>Visitor Sign-Up</strong>
+
+<form method="POST" action="mailto:jbes@bfree.on.ca">
+    <p>
+        First Name: <input type="text" name="visitor_name" size="30">
+    </p>
+    <p>
+        Last Name: <input type="text" name="visitor_address" size="30">
+    </p>
+    
+    <p>Gender:</p>
+    <label>
+        Male: <input type="radio" name="gender" value="male">
+    </label>
+    <br>
+    <label>
+        Female: <input type="radio" name="gender" value="female">
+    </label>
+
+    <p><strong>Please choose your favorite foods:</strong></p>
+    <label>
+        Steak: <input type="checkbox" name="food" value="steak">
+    </label>
+    <br>
+    <label>
+        Pizza: <input type="checkbox" name="food" value="pizza">
+    </label>
+    <br>
+    <label>
+        Chicken: <input type="checkbox" name="food" value="chicken">
+    </label>
+
+    <p>
+        <textarea cols="50" rows="10" placeholder="Enter your Favorite Quote!"></textarea>
+    </p>
+
+    <p><strong>Select a level of Education:</strong></p>
+    <select name="visitor_level" size="1">
+        <option selected>Jr. High</option>
+        <option>High School</option>
+        <option>College</option>
+        <option>University</option>
+    </select>
+
+    <p><strong>Select your favorite time of day:</strong></p>
+    <select name="favorite_time" size="3">
+        <option selected>Morning</option>
+        <option>Day</option>
+        <option>Night</option>
+    </select>
+
+    <p>
+        <input type="submit" id="Submit" name="Submit_button" value="Submit">
+    </p>
+</form>
+
+</body>
+</html>
